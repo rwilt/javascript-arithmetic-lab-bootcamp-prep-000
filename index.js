@@ -22,7 +22,7 @@ function dec(a) {
   return a- 1
 }
 
-function makeInt(a) {
+function makeInt(a, 10) {
   var a = a.toString()
   return parseInt(a)
   return parseInt(a,b)
