@@ -25,7 +25,6 @@ function dec(a) {
 function makeInt(n, b) {
   var n = n.toString()
   return parseInt(n)
-
 }
 
 function preserveDecimal(a,b) {
