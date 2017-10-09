@@ -25,21 +25,11 @@ function dec(a) {
 function makeInt(a) {
   var a = a.toString()
   return parseInt(a)
-
-  var a = 0
-  var b = 10
   return parseInt(a,b)
-
-  var a = "sldkjflksjf"
-  var b = 10
   return parseInt(a,b)
 }
 
 function preserveDecimal(a,b) {
-  var a = '2.222'
   return parseFloat(a)
-
-  var a = 'sldkjflksjf'
-  var b = 10
   return parseFloat(a, b)
 }
